@@ -1,14 +1,173 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
-  <title></title>
-  <style type="text/css">code{white-space: pre;}</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Welcome to CoolCode.com</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
-<p>pagetitle: A Test Page</p>
-<p>This is a test to see if this dummy site is actually working.</p>
+<header id="title-block-header">
+<h1 class="title">Welcome to CoolCode.com</h1>
+</header>
+<html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>
+Welcome to CoolCode.com
+</title>
+<style>
+
+.title{display:none;}
+
+ul{
+list-style-type:none;}
+
+.breadcrumb li{
+display:inline;}
+
+.modules li{
+display:inline;}
+</style>
+</head>
+<body>
+<a href="#mainContent">Skip to main content</a>
+<header>
+<p><img src="https://images.unsplash.com/photo-1611488006001-eb993d4d2ec4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="logo" /> <nav class="modules" aria-label="Modules"></p>
+<ul>
+<li>
+<a href="./coolCodeIndex.html" aria-current="page">Home</a>
+</li>
+<li>
+<a href="./whereAmI.html">Where am I?</a> <a href="./whatDoINeedToDo.html">What do I need to do?</a>
+</li>
+<li>
+<a href="whereAmIGoing.html">Where am I going?</a>
+</li>
+</ul>
+</nav>
+</header>
+<main id="mainContent">
+<h1>
+Welcome to CoolCode.com
+</h1>
+<p>CoolCode.com is a made up website designed to show new analysts at the <a href="https://digitalaccessibilitycentre.org/" target="_blank" rel="noopener noreferror">Digital Accessibility Centre (opens in a new tab)</a> examples of inaccessible web content.</p>
+<h2 id="a-well-structured-page">A well-structured page</h2>
+<p>Before we do that though, we wanted to show you what a correctly structured page looks like, with examples of accessible content to boot.</p>
+<p>So before you jump with nervous excitement into the modules at the top of this page, please explore this page carefully. Remember to navigate both in and out of context.</p>
+<h2 id="examples-of-accessible-content">Examples of accessible content</h2>
+<p>The remainder of this page will show accessible examples of content that you’ll frequently encounter while auditing services. Each will be introduced by a heading, but you can also jump directly to an element using one of the links below:</p>
+<ul>
+<li>
+<a href="#inputFields"> Edit Fields</a>
+</li>
+<li>
+<a href="#radios">Radio Buttons(with a fieldset and legend)</a>
+</li>
+<li>
+<a href="#checkboxes">Checkboxes (with a fieldset and legend)</a>
+</li>
+<!--<li>
+<a href="#combos-filter">Combo/list box with a filter</a>
+</li>-->
+<li>
+<a href="#combos">Combo box</a>
+</li>
+<li>
+<a href="#buttons">Buttons</a>
+</li>
+<li>
+<a href="#links">Links</a>
+</li>
+<li>
+<ul>
+<li>
+<a href="#standardLinks">Standard Links</a>
+</li>
+<li>
+<a href="#tabLinks">Links that open in a new tab</a>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="inputFields">
+Edit Fields
+</h3>
+<p><label for="firstName">First Name:</label> <input id="firstName" type="text"> <br> <label for="lastName">Last Name:</label> <input id="lastName" type="text"> <br> <label for="buildingStreet">Building or street name:</label> <input id="buildingStreet" type="text"> <br> <label for="city">City or Town</label> <input id="city" type="text"> <br> <label for="postcode">Postcode:</label> <input id="postcode" type="text"></p>
+<h3 id="radios">
+Radio Buttons (with a fieldset and legend
+</h3>
+<fieldset>
+<legend>Which of these biscuits is your favourite?</legend> <input id="CustardCream" type="radio" name="biscuit" value="Custard Cream"> <label for= "CustardCream"> Custard Cream</label> <br> <input id="gingernut" type="radio" name="biscuit" value="gingernut"> <label for="gingernut">Gingernut"</label> <br> <input id="cookie" type="radio" name="biscuit" value="orange"> <label for="cookie">Orange Chocolate Chip Cookie</label>
+</fieldset>
+<h3 id="checkboxes">
+Checkboxes (with a fieldset and legend)
+</h3>
+<fieldset>
+<legend> Which is your favourite tea? </legend> <input type="checkbox" id="tea" name="tea" value="Green Tea"> <label for="tea">Green Tea</label> <br> <input type="checkbox" id="bTea" name="tea" value="black tea"> <label for="bTea"> Black Tea</label>
+</fieldset>
+<!--<h3 id="combos-filter">
+<Combo/list box with a filter!-- Will come back to this list box at a later date.
+</h3>
+
+This combo box has a  filter. First, examine the available options  with the down arrow key. Next begin typing an option.
+
+Will come back to this at a later date becasue it is not fully accessible.
+
+This site may help:
+https://www.evinced.com/blog/creating-accessible-combo-boxes/
+
+<label for="books">What is your favourite type of book?>
+<input type="text" list="books" autocomplete="true">
+<datalist id="books">
+<option> Please select a book type
+<option> Crime and Thrillers
+<option> Fantasy
+<option> Sci-Fi
+</datalist>
+-->
+<h3 id="combos">
+Combo box
+</h3>
+<p><label for="pets">Choose a pet</label> <select name="pets" id="pets"> <option value="">Please choose an option</option> <option value="Dog">Dog</option> <option value="Cat">Cat</option> <option value="Fish">Fish</option> </select></p>
+<h3 id="buttons">
+Buttons
+</h3>
+<p>This button does not do anything when activated. Sorry!</p>
+<p><input id="submit" type="button" value="Find out more about DAC"></p>
+<h3 id="links">
+Links
+</h3>
+<p>In this section you’ll encounter several different links. Examine them carefully.</p>
+<h4 id="standardLinks">
+Standard Links
+</h4>
+<p>Standard links are among the most commonly encountered links. These links take you from one page or one site to another. Crutially, they keep you within the same browser window, allowing you to use standard keyboard shortcuts or gestures to move back to the previous page.</p>
+<p><a href="https://www.digitalaccessibilitycentre.org/">This link will take you to the DAC homepage, keeping you in the same browser window</a></p>
+<h4 id="tabLinks">
+Links that open in a new tab
+</h4>
+<p>Some links will open in a new tab when activated. This can be confusing and disorientating if you’re not expecting it. Try it below and pay close attention to the link text.</p>
+<p><a href="https://www.audible.co.uk/" target="_blank" rel="nopener noreferror">Audible (opens in a new tab)</a></p>
+<h2>
+What happens next?
+</h2>
+<p>Now it’s time to go have fun in <a href="./whereAmI.html">Module 1: Where Am I?</a> Good luck!</p>
+</main>
+<footer>
+Copyright Us for The Digital Accessibility Centre 2022
+</footer>
+</body>
+</html>
 </body>
 </html>
