@@ -23,8 +23,8 @@ body>
 
 <h1>Audio</h1>
 
-<audio controls> <!--'Controls' introduces meida controls for the audio player-->
-src="" <!--path to audio file-->
+<audio controls> <!--'Controls' introduces media controls for the audio player-->
+src="./source media/Edward VIII abdication speech.mp3" <!--path to audio file-->
 </audio>
 
 <div role="region" aria-label="Transcript"> <!--Changing the role to 'region' allows me to create new landmarks at will when combined with the aria-label-->
@@ -33,7 +33,7 @@ src="" <!--path to audio file-->
 <summary role="button"><h3><!--Summary title</h3></summary>
 <!--When combined with the CSSstyling for the details/summary component, (please see above), the rendered component works as both an expandable heading and button. However, the level may need to change depending on the other levels within the page.-->
 
-<!--Text for  summary included here-->
+Example transcript text.
 
 </details>
 </main>
