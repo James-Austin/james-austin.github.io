@@ -8,9 +8,9 @@
 .title{}<!--this class name isspecific to Pandoc which introduces a duplicate title to the HTML document if the 'display:none;' attribute is not included-->
 display:none;}
 marker{
-    ddisplay-list-type:none;}
+    display:none;}
     summary{
-        display:none;}
+        list-style:none;}
     }
 }
 <!-- Other CSS styles can be included here if needed-->
@@ -36,7 +36,7 @@ src="./test.mp3">
 <div role="region" aria-label="Transcript"> <!--Changing the role to 'region' allows me to create new landmarks at will when combined with the aria-label-->
 <details>
 
-<summary role="button><h3>Transcript of speech</h3></summary>
+<summary role="button"><h3>Transcript of speech</h3></summary>
 <!--When combined with the CSSstyling for the details/summary component, (please see above), the rendered component works as both an expandable heading and button. However, the level may need to change depending on the other levels within the page.-->
 
 Example transcript text.
